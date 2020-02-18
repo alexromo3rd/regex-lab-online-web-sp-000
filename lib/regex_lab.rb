@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  match = word.scan(/\b[aeiou]/)
+  match = word.grep(/\b[aeiou]/)
   match.each do |word|
     return true
   end
