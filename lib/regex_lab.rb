@@ -13,7 +13,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.scan(/\b[A-Z]\w+\W/) != nil
     return true
-  else
+  elsif text.scan(/\b[a-z]\w+\W/) != nil
     return false
   end
 end
