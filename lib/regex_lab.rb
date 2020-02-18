@@ -1,7 +1,5 @@
 def starts_with_a_vowel?(word)
-  match = word.grep(/\b[aeiou]/)
-  match.each do |word|
-    return true
+  puts word
   end
 
   # not_match = word.grep(/\b[)
