@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   puts word
-  end
+end
 
   # not_match = word.grep(/\b[)
 
