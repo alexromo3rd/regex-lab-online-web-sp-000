@@ -1,9 +1,11 @@
 def starts_with_a_vowel?(word)
-  if word.grep(/\b[aeiou]/)
-    true
-  else
-    false
+  match = word.grep(/\b[aeiou]/)
+  match.each do |word|
+    return true
   end
+
+  # not_match = word.grep(/\b[)
+
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
